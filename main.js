@@ -1,10 +1,9 @@
-let mazlomon = document.getElementById("mazlomon")
-mazlomon.onclick = function () {
-    dadalertid.style.display = "block"
-}
-
+let Read_about = document.getElementById("Read_about")
 let closebtn = document.getElementById("closebtn")
 let dadalertid = document.getElementById("dadalertid")
+Read_about.onclick = function () {
+    dadalertid.style.display = "block"
+}
 
 closebtn.addEventListener("click", function () {
     dadalertid.style.display = "none"
